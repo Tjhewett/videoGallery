@@ -18,12 +18,17 @@ body{
     font-family: 'Bungee', cursive;
 }
 header{
-    background-color: white;
-    padding: 30px 0;
+    background-image: linear-gradient(180deg, rgba(255,0,0,0.2), rgba(255,0,0,1));
+    padding: 20px 0;
+}
+header h2{
+    text-align: center;
+    color: black;
 }
 #logoimage{
     float: left;
     width: 5%;
+    margin-left: 10px;
 }
 #nav_list{
     width: 15%;
@@ -36,7 +41,7 @@ header{
     list-style: none;
 }
 #nav_list ul li{
-    background-color: navy;
+    background-color: maroon;
     margin-bottom: 7px;
     border: 3px ridge silver;
     border-radius: 15px;
@@ -52,7 +57,7 @@ header{
     transition: all .5s;
 }
 #nav_list ul li a:hover{
-    color: navy;
+    color: maroon;
 }
 #nav_list ul li:hover{
     background-color: white;
@@ -74,7 +79,7 @@ article{
 }
 article h4{
     font-size: 150%;
-    color: white;
+    color: black;
     padding: 0 0 15px 1em;
 }
 
@@ -124,7 +129,7 @@ article h4{
 
 footer{
     clear: both;
-    background-color: white;
+    background-image: linear-gradient(-180deg, rgba(255,0,0,0.2), rgba(255,0,0,1));
     padding: 15px 0;
 }
 footer p{
